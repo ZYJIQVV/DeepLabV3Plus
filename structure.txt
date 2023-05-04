@@ -1,0 +1,20 @@
+MobileNetV2Ver
+├─.idea
+│  └─inspectionProfiles
+├─Data			the sample data
+│  └─samples            
+│      ├─all	rgb image and 3-channel masks
+│      ├─jpg	only image
+│      └─png	only visualized  mask
+├─model
+│  └─__pycache__
+├─out
+│  ├─image		the output of original image when training
+│  ├─label		the output of label when trainnig
+│  ├─mask		the output of mask of model prediction when training
+│  └─models		the output of models trained
+├─utils
+│   └─__pycache__
+│  
+│ 
+└─train.py		training script
